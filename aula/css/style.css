@@ -1,0 +1,27 @@
+.container {
+  height: 200px;
+  position: relative;
+  border: 2px solid #000; /* Black border */
+  border-radius: 10px;    /* Rounded corners */
+  padding: 20px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}

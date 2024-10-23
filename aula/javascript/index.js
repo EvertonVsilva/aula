@@ -1,0 +1,12 @@
+$('#index').click(function(){
+    window.open("../html/index.html");
+})
+$('#correios').click(function(){
+    window.open("../html/correios.html");
+})
+$('#ibge').click(function(){
+    window.open("../html/ibge.html");
+})
+$('#qualquer').click(function(){
+    window.open("../html/qualquer.html");
+})
